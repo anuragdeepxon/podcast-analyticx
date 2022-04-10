@@ -49,3 +49,7 @@ Route::prefix('dashboard')->group(function () {
 Route::view('default-layout', 'multiple.default-layout')->name('default-layout');
 Route::view('compact-layout', 'multiple.compact-layout')->name('compact-layout');
 Route::view('modern-layout', 'multiple.modern-layout')->name('modern-layout');
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
