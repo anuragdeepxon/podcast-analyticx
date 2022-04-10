@@ -2,7 +2,7 @@
 ## Specification
 
 - Laravel 9
-- Vue 2 + VueRouter + vue-progressbar + sweetalert2 + laravel-vue-pagination
+- Vue 3 + VueRouter + vue-progressbar + sweetalert2 + laravel-vue-pagination
 - Laravel Passport
 - Bootstrap 5x + Font Awesome 5
 
